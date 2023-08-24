@@ -1,6 +1,6 @@
 ﻿namespace Web.DTO;
 
-public class CryptoDtoGet
+public class CryptoDtoDecode
 {
     public int Id { get; set; }
 }

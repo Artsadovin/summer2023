@@ -3,6 +3,7 @@ using Domain;
 using Domain.Repositories;
 using Domain.Entity;
 using Web.DTO;
+using webCrypto.Converters;
 
 namespace webCrypto.Controllers
 {
@@ -25,18 +26,15 @@ namespace webCrypto.Controllers
         }
 
         [HttpPost("GetCrypto")]
-        public String Get(CryptoDtoGet cryptoDto)
+        public String Get(CryptoDtoDecode cryptoDto)
         {
             return _cryptoRepository.GetCryptos().FirstOrDefault(x => x.Id == cryptoDto.Id).Original;
         }
 
         [HttpPost(Name = "SaveCryptos")]                                                                                                          
-        public IActionResult SaveCrypto(CryptoDtoPost cryptoDto)
+        public IActionResult SaveCrypto(CryptoDtoCode cryptoDto)
         {
-            Crypto crypto = new Crypto();
-            crypto.Original = cryptoDto.Original;
-            crypto.Key = cryptoDto.Key;
-            crypto.codeWord();
+            Crypto crypto = codeDtoToCrypto.toCrypto(cryptoDto);
             _cryptoRepository.AddCrypto(crypto);
             _unitOfWork.Commit();
 
