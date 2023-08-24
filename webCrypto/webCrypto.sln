@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webCrypto", "webCrypto\webCrypto.csproj", "{1E7FA22A-16D3-4AF2-81D6-86AB57476BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{7EAAA238-F0E2-4CA1-9E04-95AD688AAF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastucture", "Infrastucture\Infrastucture.csproj", "{87768509-4833-4829-AC89-0DD9BFAEA7FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E7FA22A-16D3-4AF2-81D6-86AB57476BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7FA22A-16D3-4AF2-81D6-86AB57476BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7FA22A-16D3-4AF2-81D6-86AB57476BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7FA22A-16D3-4AF2-81D6-86AB57476BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EAAA238-F0E2-4CA1-9E04-95AD688AAF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAAA238-F0E2-4CA1-9E04-95AD688AAF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAAA238-F0E2-4CA1-9E04-95AD688AAF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAAA238-F0E2-4CA1-9E04-95AD688AAF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87768509-4833-4829-AC89-0DD9BFAEA7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87768509-4833-4829-AC89-0DD9BFAEA7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87768509-4833-4829-AC89-0DD9BFAEA7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87768509-4833-4829-AC89-0DD9BFAEA7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {538E68DA-6686-487B-A9BE-BAAA05F6D2BF}
+	EndGlobalSection
+EndGlobal

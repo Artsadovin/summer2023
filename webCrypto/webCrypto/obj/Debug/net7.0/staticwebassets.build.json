@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kj0mpQzwAdc765Puv9eHr+14dFVbfZrMNlb1lguJ8w8=",
+  "Source": "webCrypto",
+  "BasePath": "_content/webCrypto",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
